@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+   
+    <body>
+       
+        <script type="text/javascript" src="cordova.js"></script>
+        
+        
+        <script type="text/javascript" src="AppUpdater.js"></script>
+        <script type="text/javascript">
+           
+
+            document.addEventListener(
+                'deviceready', 
+                function(){
+                    AppUpdater('http://localhost:3000/mobile_app/app_info');
+                }, 
+                false
+            );
+
+             
+
+        </script>
+    </body>
+</html>
