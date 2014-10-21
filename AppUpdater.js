@@ -546,7 +546,7 @@ var FileManager = function(){
 		var full_file_path = dir+'/'+file;
 		var object = this;
 		// well, here it will be a bit of diharrea code, 
-		// but, this requires to be this chain of crap, thanks to phonegap file creation asynch stuff
+		// but, this requires to be this chain of crap, thanks to Cordova file creation asynch stuff
 		// get fileSystem
 		fileSystemSingleton.load(
 			function(fs){
