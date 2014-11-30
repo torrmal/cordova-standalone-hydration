@@ -35,7 +35,7 @@ Where
 - base_url: is the url where the app to be downlaoded is located at
 - file: a list of files to download from the base_url (pretty much a list of all the files in your app). Use a script to generate this JSON.
 
-In summary your ohonegap index.html should look something like this:
+In summary your Cordova index.html should look something like this:
 
 
 
